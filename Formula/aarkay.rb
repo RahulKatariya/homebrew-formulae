@@ -5,7 +5,6 @@ class Aarkay < Formula
   sha256 "78af0f7fa99764a78e9b69bd6f6251101c21b56198108e3271add88ac528167f"
 
   def install
-    system "make" if build.head?
     system "make", "DESTDIR=#{prefix}", "install"
   end
 end
