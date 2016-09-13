@@ -1,4 +1,4 @@
-class AarKay < Formula
+class Aarkay < Formula
   homepage "http://rahulkatariya.me/"
   head "https://github.com/rahulkatariya/AarKay-CLI"
   url "https://github.com/rahulkatariya/AarKay-CLI/releases/download/0.0.1/aarkay-cli.tar.gz"
