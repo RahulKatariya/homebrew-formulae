@@ -8,4 +8,11 @@ class Aarkay < Formula
   def install
     bin.install "aarkay"
   end
+  
+  def caveats; <<-EOS.undent
+AarKay Root Directory changed from ~/Developer to ~/
+AarKayFiles Directory renamed to AarKayData    
+EOS
+  end
+
 end
