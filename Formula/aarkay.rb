@@ -10,6 +10,8 @@ class Aarkay < Formula
   end
   
   def caveats; <<~EOS 
+For Upgrading Users -
+      
 AarKay Root Directory changed from ~/Developer to ~/
 AarKayFiles Directory renamed to AarKayData    
 EOS
