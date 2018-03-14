@@ -1,9 +1,9 @@
 class Aarkay < Formula
   desc "A command line utility to create multiple files by mapping data to template"
   homepage "https://rahulkatariya.me"
-  url "https://github.com/RahulKatariya/AarKay/releases/download/v0.0.1/AarKay-v0.0.1.zip"
-  version "0.0.1"
-  sha256 "9b1e46af5950789ae55ab7b98df7a09bca00849405adfb548e0f5472fb96afee"
+  url "https://github.com/RahulKatariya/AarKay/releases/download/v0.0.2/AarKay-v0.0.2.zip"
+  version "0.0.2"
+  sha256 "a20e0e50be98acc2b0a1ac8d56e8375740c6e2864237b25bce8262bdd402a7f3"
 
   def install
     bin.install "aarkay"
