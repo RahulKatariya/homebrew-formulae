@@ -1,22 +1,12 @@
 class Aarkay < Formula
-  desc "A code generation framework for all languages"
-  homepage "https://rahulkatariya.me"
-  url "https://github.com/RahulKatariya/AarKay/releases/download/v0.0.10/AarKay-v0.0.10.zip"
-  version "0.0.10"
-  sha256 "a2bcbbf915ee1fa022c51aff4d8f6e9f0aa32ccd65b5e29e04144d7f6865b314"
+  desc "A language independent code generation framework"
+  homepage "https://aarkay.xyz"
+  url "https://github.com/RahulKatariya/AarKay/releases/download/v0.0.13/AarKay-v0.0.13.zip"
+  version "0.0.13"
+  sha256 "4ddb46340828b7434b318f7aeaeb73bc63e17a9067103774840932a76b462e34"
 
   def install
     bin.install "aarkay"
-  end
-  
-  def caveats; <<~EOS 
-=====================================================
-For Upgrading Users -
-      
-AarKay Root Directory changed from ~/Developer to ~/
-AarKayFiles Directory renamed to AarKayData    
-=====================================================
-EOS
   end
 
 end
