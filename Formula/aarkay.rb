@@ -1,9 +1,9 @@
 class Aarkay < Formula
   desc "A language independent code generation framework"
   homepage "https://aarkay.xyz"
-  url "https://github.com/RahulKatariya/AarKay/releases/download/v0.0.19/AarKay-v0.0.19.zip"
-  version "0.0.19"
-  sha256 "fccc340c14e65e76075a485ddcac7322b256bd1349f8db50b930212338399c28"
+  url "https://github.com/RahulKatariya/AarKay/releases/download/v0.1.0/AarKay-v0.1.0.zip"
+  version "0.1.0"
+  sha256 "ab7c453e1baa2f8700415209f3ad55039cc7658570458d4e8fe2dee5ca4d21f7"
 
   def install
     bin.install "aarkay"
