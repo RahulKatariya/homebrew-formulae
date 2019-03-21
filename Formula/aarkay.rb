@@ -3,7 +3,7 @@ class Aarkay < Formula
   homepage "https://aarkay.xyz"
   url "https://github.com/RahulKatariya/AarKay/releases/download/v0.7.1/AarKay-v0.7.1.zip"
   version "0.7.1"
-  sha256 "9d58b7b8ea3ad3303f9c2591601c358ba396b56e8db31d49a00e279c9a7aa9c7"
+  sha256 "8dc9cd24edd8e40cd21dee3bed8ea1f4eefe24c9bf1e08f212ae4746f09fd72c"
 
   def install
     bin.install "aarkay"
